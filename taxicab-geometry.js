@@ -24,7 +24,7 @@ const blocksAway = function(directions) {
       finalPosition = finalPosition;
     }
   }
-  //set object keys east and north to finalPosition[1] and finalPosition[2] respectively, then return distanceObject
+  //set object keys east and north to finalPosition[1] and finalPosition[0] respectively, then return distanceObject
   distanceObject.east = finalPosition[1];
   distanceObject.north = finalPosition[0];
   return distanceObject;
