@@ -34,3 +34,10 @@ const blocksAway = function(directions) {
   distanceObject.north = finalPosition[0];
   return distanceObject;
 };
+
+//checks
+console.log(blocksAway(["right", 2, "left", 3, "left", 1]));
+console.log(blocksAway(["left", 1, "right", 1, "left", 1, "right", 1, "left", 1, "right", 1]));
+console.log(blocksAway(["left", 3, "right", 1, "right", 3, "right", 1]));
+console.log(blocksAway(["left", 3, "right", 1, "right", 3, "right", 1, "right", 1]));
+console.log(blocksAway(["right", 4, "left", 1, "left", 3, "left", 1, "left", 1]));
